@@ -6,13 +6,13 @@ os.system("cls")
 
 def calculo_par(a,b):
     if a % 2 == 0:
-        re1 = "Verdadeiro"
+        re1 = "Par"
     else:
-        re1 = "Falso"
+        re1 = "Ímpar"
     if b % 2 == 0:
-        re2 = "Verdadeiro"
+        re2 = "Par"
     else:
-        re2 = "Falso"
+        re2 = "Ímpar"
 
     return re1, re2
 
